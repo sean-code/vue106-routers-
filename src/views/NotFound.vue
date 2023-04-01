@@ -41,7 +41,7 @@ p {
   margin: 25px auto;
   max-width: 776px;
   text-align: center;
-  color: #bcecf2;
+  color: #454145;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
