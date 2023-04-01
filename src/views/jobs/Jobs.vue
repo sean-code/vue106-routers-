@@ -1,7 +1,9 @@
 <template>
     <h1>Jobs</h1>
     <div v-for="job in jobs" :key="job.id">
-      <h3>{{ job.title }}</h3>
+        <router-link :to="{ name: 'JobDetails', params: {id: job.id} }" class="jobs-link">
+            <h3>{{ job.title }}</h3>
+        </router-link>
     </div>
   </template>
   
@@ -19,5 +21,13 @@
   };
   </script>
   
-  <style scoped></style>
+<style scoped>
+.jobs-link{
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+</style>
   
