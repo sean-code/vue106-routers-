@@ -19,13 +19,16 @@
 export default{
     methods:{
         redirect(){
-            console.log("Redirect")
+            // console.log("Redirect")
+            this.$router.push({name: 'home'})
         },
-        goBack(){
-            console.log("Go Back")
+        goBack() {
+            // console.log("Go Back")
+            this.$router.go(-1)
         },
         goForward(){
-            console.log("Go Forward")
+            // console.log("Go Forward")
+            this.$router.go(+1)
         }
     }
 }
