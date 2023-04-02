@@ -11,11 +11,12 @@
   export default {
     data() {
       return {
-        jobs: [
-          { title: "Software Developer", id: 1, details: "lorem" },
-          { title: "Ninja Web developer", id: 2, details: "ipsum" },
-          { title: "Ninja Vue Developer", id: 3, details: "lorem lorem" },
-        ],
+        // jobs: [
+        //   { title: "Software Developer", id: 1, details: "lorem" },
+        //   { title: "Ninja Web developer", id: 2, details: "ipsum" },
+        //   { title: "Ninja Vue Developer", id: 3, details: "lorem lorem" },
+        // ],
+        jobs: []
       };
     },
   };
@@ -27,7 +28,6 @@
     font-size: 15px;
     cursor: pointer;
 }
-
 
 </style>
   
