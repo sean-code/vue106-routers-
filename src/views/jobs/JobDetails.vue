@@ -5,6 +5,9 @@
       <p>The Job Title is {{ job.title }}</p>
       <p>Lorem ipsum dolor sit. {{ job.details }}</p>
     </div>
+    <div v-else>
+        <p>Loading job details...</p>
+    </div>
   </template>
   
   <script>
